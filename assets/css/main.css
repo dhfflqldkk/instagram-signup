@@ -10,6 +10,9 @@ a {
 img {
   max-width: 90%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 html {
   font-size: 14px;
@@ -18,13 +21,20 @@ body {
   background-color: #fafafa;
   color: #262626;
 }
-.l-main {
-  width: 90vw;
-  height: 90vh;
+
+.c-main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.l-main {
+  width: 90vw;
+  height: 90vh;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 449px) {
   .l-main {
